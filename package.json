@@ -1,0 +1,34 @@
+{
+  "name": "npm-package-template",
+  "version": "1.0.0",
+  "description": "A template for creating an npm package with typescript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palsson123/xxxxxx"
+  },
+  "keywords": [
+    "react",
+    "hook"
+  ],
+  "author": "Jakob Paalsson <jaaacke@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Palsson123/xxxxxx/issues"
+  },
+  "homepage": "https://github.com/Palsson123/xxxxxx#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "react": "^16.8.1",
+    "typescript": "^3.3.1"
+  }
+}
